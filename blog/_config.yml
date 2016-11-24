@@ -68,7 +68,13 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+   # 类型
+  type: git
+  # 仓库
+  repo: git@github.com:caosenvip/caosenvip.github.io.git
+  # 分支
+  branch: master
+
 
 
 #plugins
